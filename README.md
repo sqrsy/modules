@@ -1,6 +1,6 @@
 # What is it?
 
-This folder contains Eurorack modules (PCBs and panels) that I designed. They are all open to use, but you must make any derivatives open too. If you use them commercially, please donate 10% of profits to a charity nearby where you live.
+This folder contains Eurorack modules (PCBs and panels) that I designed. They are all open to use, but you must make any derivatives open too. If you use them commercially, please donate 10% of profits to a charity nearby you.
 
 I will add detailed part lists and assembly instructions if and when I make them.
 
