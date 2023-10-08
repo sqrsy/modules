@@ -12,7 +12,7 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 * logic: two sets of 2-input, 3-output logic gates: or, and, xor.
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
-	* Note: this is an imperfect module. It is missing an input comparator and an output buffer, and has untied pins.
+	* Note: this is an imperfect module. It is missing an input comparator and an output buffer, and has untied pins (it might also benefit from pull-down resistors on the input).
 
 * rasa6: a generic 1-input, 2-parameter, 2-output Arduino Beetle Eurorack module shield with optional DAC.
 	* Parts: thonk jacks, thonk 50k pots, {150k, 220k} resistors, mcp4822 (optional), 16-pin power.
