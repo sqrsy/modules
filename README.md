@@ -8,7 +8,7 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 * calculate: uses a few op-amps to perform basic operations like attenuversion, addition, and comparison.
 	* Parts: thonk jacks, thonk 50k pots, {1k, 10k, 100k} resistors, tl074 op-amps, 3mm LEDs, 10-pin power.
-	* Note: this is an imperfect module. It is missing bypass capacitors (it might also benefit from pull-down resistors on the input).
+	* Note: this is an imperfect module. It is missing bypass capacitors (and it might also benefit from pull-down resistors on the input).
 
 * logic: two sets of 2-input, 3-output logic gates: or, and, xor.
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
