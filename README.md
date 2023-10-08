@@ -4,7 +4,7 @@ This folder contains Eurorack modules (PCBs and panels) that I designed. They ar
 
 I will add detailed part lists and assembly instructions if and when I make them.
 
-# Circuits
+# Modules
 
 * calculate: uses a few op-amps to perform basic operations like attenuversion, addition, and comparison.
 	* Parts: thonk jacks, thonk 50k pots, {1k, 10k, 100k} resistors, tl074 op-amps, 3mm LEDs, 10-pin power.
