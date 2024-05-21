@@ -19,6 +19,9 @@ I will add detailed part lists and assembly instructions if and when I make them
 * rectified-mult: a 9-jack mult where 4 of the jacks apply some rectification to the signal.
 	* Parts: thonk jacks, 1k resistors, diodes, full-bridge rectifiers, 3mm LEDs.
 
+* sn76489: exposes the sn76489 chip as a Eurorack module.
+	* Parts: thonk jacks, thonk 50k pots, thonk sub-mini switch, {150k, 220k} resistors, sn76489, 16-pin power.
+
 * switched-mult: a 9-jack mult that can route a 3-jack mult to one of two different sets of 3-jack mults.
 	* Parts: thonk jacks, thonk sub-mini switch.
 
