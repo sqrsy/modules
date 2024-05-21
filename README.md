@@ -6,9 +6,8 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 # Modules
 
-* calculate: uses a few op-amps to perform basic operations like attenuversion, addition, and comparison.
-	* Parts: thonk jacks, thonk 50k pots, {1k, 10k, 100k} resistors, tl074 op-amps, 3mm LEDs, 10-pin power.
-	* Note: this is an imperfect module. It is missing bypass capacitors.
+* cv-mixer: uses an op-amp to perform attenuversion and addition on 3 inputs.
+	* Parts: thonk jacks, thonk 50k pots, {560, 100k, 1M} resistors, 0.1 uF capacitors, tl074 op-amps, 10-pin power.
 
 * logic: two sets of 2-input, 3-output logic gates: or, and, xor.
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
@@ -19,9 +18,6 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 * rectified-mult: a 9-jack mult where 4 of the jacks apply some rectification to the signal.
 	* Parts: thonk jacks, 1k resistors, diodes, full-bridge rectifiers, 3mm LEDs.
-
-* stereo-mult: two separate 6-jack mults that each can split a stereo signal into left and right channels.
-	* Parts: thonk jacks, 1k resistors, 3mm LEDs.
 
 * switched-mult: a 9-jack mult that can route a 3-jack mult to one of two different sets of 3-jack mults.
 	* Parts: thonk jacks, thonk sub-mini switch.
