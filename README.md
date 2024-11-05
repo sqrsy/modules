@@ -30,4 +30,4 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 # Disclaimer
 
-All files are provided without any guarentee. If you notice a mistake, please submit an Issue and I will fix it.
+All files are provided without any guarantee. If you notice a mistake, please submit an Issue and I will fix it.
