@@ -13,7 +13,7 @@ I will add detailed part lists and assembly instructions if and when I make them
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
 	* Note: this is an imperfect module. It is missing an input comparator and an output buffer, and has untied pins on the unused logic gates.
 
-* quantiser (12hp): an Arduino Nano Every dual quantiser with scale controlled by switches
+* quantiser (12hp): an Arduino Nano Every dual quantiser with scale controlled by switches.
 	* Parts: thonk jacks, thonk 50k pots, thonk switches, {150k, 220k} resistors, mcp4822, 10-pin power.
 
 * rasa3x2 (10hp): a generic 2-input, 6-parameter, 4-switch, 2-output Arduino Nano Every Eurorack module shield with DAC and optional thru-zero voltage output.
