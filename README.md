@@ -6,14 +6,14 @@ I will add detailed part lists and assembly instructions if and when I make them
 
 # Modules
 
-* cv-mixer (7hp): uses an op-amp to perform attenuversion and addition on 3 inputs.
+* cv-mixer (6hp): uses an op-amp to perform attenuversion and addition on 3 inputs.
 	* Parts: thonk jacks, thonk 50k pots, {560, 100k, 1M} resistors, 0.1 uF capacitors, tl074 op-amps, 10-pin power.
 
 * logic (8hp): two sets of 2-input, 3-output logic gates: or, and, xor.
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
 	* Note: this is an imperfect module. It is missing an input comparator and an output buffer, and has untied pins on the unused logic gates.
 
-* quantiser (12hp): an Arduino Nano Every dual quantiser with scale controlled by switches.
+* quantiser (8hp): an Arduino Nano Every dual quantiser with scale controlled by switches.
 	* Parts: thonk jacks, thonk 50k pots, thonk switches, {150k, 220k} resistors, mcp4822, 10-pin power.
 
 * rasa3x2 (10hp): a generic 2-input, 6-parameter, 4-switch, 2-output Arduino Nano Every Eurorack module shield with DAC and optional thru-zero voltage output.
@@ -22,16 +22,10 @@ I will add detailed part lists and assembly instructions if and when I make them
 * rasa6 (6hp): a generic 1-input, 2-parameter, 2-output Arduino Beetle Eurorack module shield with optional DAC.
 	* Parts: thonk jacks, thonk 50k pots, {150k, 220k} resistors, mcp4822 (optional), 16-pin power.
 
-* rectified-mult (4hp): a 9-jack mult where 4 of the jacks apply some rectification to the signal.
-	* Parts: thonk jacks, 1k resistors, diodes, full-bridge rectifiers, 3mm LEDs.
-
 * sn76489 (8hp): exposes the sn76489 chip as a Eurorack module.
 	* Parts: thonk jacks, thonk 50k pots, thonk sub-mini switch, {150k, 220k} resistors, sn76489, 16-pin power.
 
-* switched-mult (3hp): a 6-jack mult that can route a 2-jack mult to one of two different sets of 2-jack mults.
-	* Parts: thonk jacks, thonk sub-mini switch.
-
-* switched-mult (4hp): a 9-jack mult that can route a 3-jack mult to one of two different sets of 3-jack mults.
+* switch (3hp): a 6-jack mult that can route a 2-jack mult to one of two different sets of 2-jack mults.
 	* Parts: thonk jacks, thonk sub-mini switch.
 
 # Disclaimer
