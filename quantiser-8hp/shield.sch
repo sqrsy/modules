@@ -357,55 +357,6 @@ Thonk 108-0044-EVX</description>
 <rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6" layer="51"/>
 <circle x="0" y="0" radius="1.016" width="0.0508" layer="21"/>
 </package>
-<package name="VERTICAL_RESISTOR">
-<description>Vertical resistor</description>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-1.67831875" y="0.78730625" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.905" y="-1.27" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="21" curve="90"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="1.905" y2="1.27" width="0.127" layer="21" curve="90"/>
-<wire x1="1.905" y1="-1.27" x2="2.54" y2="-0.635" width="0.127" layer="21" curve="90"/>
-</package>
-<package name="7MM_RESISTOR">
-<description>Standard resistor on 7mm grid</description>
-<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
-<text x="-2.420771875" y="1.146115625" size="0.889" layer="25" ratio="10" align="top-left">&gt;NAME</text>
-<text x="3.055590625" y="-1.002128125" size="1.143" layer="27" ratio="10" align="bottom-right">&gt;VALUE</text>
-<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
-<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
-</package>
-<package name="10MM_RESISTOR">
-<description>Standard resistor on 10mm grid</description>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-5.334" y2="0" width="0.6096" layer="51"/>
-<wire x1="-4.21" y1="0.889" x2="-3.956" y2="1.143" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.21" y1="-0.889" x2="-3.956" y2="-1.143" width="0.1524" layer="21" curve="90"/>
-<wire x1="4.021" y1="-1.143" x2="4.275" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="4.021" y1="1.043" x2="4.275" y2="0.789" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.21" y1="-0.889" x2="-4.21" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="4.275" y1="-0.889" x2="4.275" y2="0.789" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
-<text x="-3.74836875" y="0.4290125" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.284790625" y="-1.227290625" size="1.4224" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="SPDT_SWITCH">
@@ -489,16 +440,6 @@ Thonk 108-0044-EVX</description>
 <pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="RESISTORS">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -609,41 +550,6 @@ Variants with fatter pads for easier soldering, and the LOCK variant which has 5
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="E" pad="3"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>Standard resistor, various versions</description>
-<gates>
-<gate name="G$1" symbol="RESISTORS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="VERTICAL" package="VERTICAL_RESISTOR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="7MM" package="7MM_RESISTOR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10MM_RESISTOR" package="10MM_RESISTOR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1337,19 +1243,17 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="A3" library="MusicThingModular" deviceset="SUBMINI_SPDT" device=""/>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="SV1" library="MusicThingModular" deviceset="EURO_POWER_HEADER" device="REGULAR"/>
-<part name="MCP4822" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2"/>
+<part name="MCP4822" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2" value="MCP4822"/>
 <part name="OUTA" library="MusicThingModular" deviceset="THONKI-STEREO" device="" value="OUT A"/>
 <part name="OUTB" library="MusicThingModular" deviceset="THONKI-STEREO" device="" value="OUT B"/>
 <part name="A4" library="MusicThingModular" deviceset="THONKI-STEREO" device=""/>
 <part name="A5" library="MusicThingModular" deviceset="THONKI-STEREO" device=""/>
-<part name="A7" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_"/>
-<part name="A6" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_"/>
+<part name="A7" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_" value="50k"/>
+<part name="A6" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT" device="_" value="50k"/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220k"/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220k"/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="150k"/>
 <part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="150k"/>
-<part name="D3_BYPASS" library="MusicThingModular" deviceset="RESISTOR" device="7MM"/>
-<part name="D4_BYPASS" library="MusicThingModular" deviceset="RESISTOR" device="7MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -1410,8 +1314,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="-24.638" y="-36.83" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="MCP4822" gate="G$1" x="-71.12" y="-25.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="-66.675" y="-29.845" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-66.675" y="-16.51" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-66.04" y="-30.48" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-66.04" y="-15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="OUTA" gate="G$1" x="-101.6" y="-30.48" smashed="yes">
 <attribute name="NAME" x="-106.68" y="-27.432" size="1.778" layer="95"/>
@@ -1453,14 +1357,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="18.796" y="-111.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="21.844" y="-111.76" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D3_BYPASS" gate="G$1" x="-73.66" y="-10.16" smashed="yes">
-<attribute name="NAME" x="-77.47" y="-8.6614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-77.47" y="-13.462" size="1.778" layer="96"/>
-</instance>
-<instance part="D4_BYPASS" gate="G$1" x="-73.66" y="-2.54" smashed="yes">
-<attribute name="NAME" x="-77.47" y="-1.0414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-77.47" y="-5.842" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -1471,6 +1367,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="SV1" gate="G$1" pin="10"/>
 <wire x1="-17.78" y1="-15.24" x2="-17.78" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-33.02" x2="-27.94" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="9"/>
+<wire x1="-27.94" y1="-33.02" x2="-27.94" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-33.02"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -1588,12 +1487,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="OUTB" gate="G$1" pin="LEFT"/>
 <wire x1="-78.74" y1="-22.86" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-22.86" x2="-83.82" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-17.78" x2="-93.98" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-17.78" x2="-96.52" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-2.54" x2="-93.98" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-2.54" x2="-93.98" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-93.98" y="-17.78"/>
-<pinref part="D4_BYPASS" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-17.78" x2="-96.52" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1602,12 +1496,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-78.74" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-27.94" x2="-83.82" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="OUTA" gate="G$1" pin="LEFT"/>
-<wire x1="-83.82" y1="-33.02" x2="-91.44" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="-33.02" x2="-96.52" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-10.16" x2="-91.44" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="-10.16" x2="-91.44" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="-91.44" y="-33.02"/>
-<pinref part="D3_BYPASS" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="-33.02" x2="-96.52" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -1623,26 +1512,18 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <segment>
 <pinref part="MCP4822" gate="G$1" pin="3"/>
 <wire x1="-63.5" y1="-22.86" x2="-58.42" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-22.86" x2="-58.42" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-22.86" x2="-58.42" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D3"/>
-<wire x1="-58.42" y1="-10.16" x2="-58.42" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-2.54" x2="-50.8" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-10.16" x2="-58.42" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-58.42" y="-10.16"/>
-<pinref part="D3_BYPASS" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="MCP4822" gate="G$1" pin="4"/>
 <wire x1="-63.5" y1="-20.32" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-20.32" x2="-60.96" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-20.32" x2="-60.96" y2="0" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D4"/>
-<wire x1="-60.96" y1="-2.54" x2="-60.96" y2="0" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="0" x2="-50.8" y2="0" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-2.54" x2="-60.96" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-60.96" y="-2.54"/>
-<pinref part="D4_BYPASS" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
