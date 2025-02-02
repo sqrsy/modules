@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,37 +59,7 @@
 <circle x="15.36901875" y="83.764659375" radius="3.05" width="0" layer="46"/>
 <circle x="15.36901875" y="22.804659375" radius="3" width="0" layer="46"/>
 <circle x="15.36901875" y="36.774659375" radius="3" width="0" layer="46"/>
-<polygon width="0" layer="25">
-<vertex x="3.75" y="121.25"/>
-<vertex x="3.75" y="116.25"/>
-<vertex x="26.25" y="116.25"/>
-<vertex x="26.25" y="121.25"/>
-</polygon>
-<polygon width="0" layer="25">
-<vertex x="3.75" y="107.5"/>
-<vertex x="3.75" y="102.5"/>
-<vertex x="26.25" y="102.5"/>
-<vertex x="26.25" y="107.5"/>
-</polygon>
-<polygon width="0" layer="25">
-<vertex x="3.75" y="93.125"/>
-<vertex x="3.75" y="88.125"/>
-<vertex x="26.25" y="88.125"/>
-<vertex x="26.25" y="93.125"/>
-</polygon>
-<polygon width="0" layer="25">
-<vertex x="3.75" y="32.5"/>
-<vertex x="3.75" y="27.5"/>
-<vertex x="26.25" y="27.5"/>
-<vertex x="26.25" y="32.5"/>
-</polygon>
-<polygon width="0" layer="25">
-<vertex x="3.75" y="46.25"/>
-<vertex x="3.75" y="41.25"/>
-<vertex x="26.25" y="41.25"/>
-<vertex x="26.25" y="46.25"/>
-</polygon>
-<text x="10.795509375" y="124.459725" size="1.778" layer="25" font="vector">TABULA RASA 6</text>
+<text x="10.795509375" y="124.459725" size="1.778" layer="25" font="vector">TRIG_R_R_R_S</text>
 <rectangle x1="3.7375" y1="51.4375" x2="4.5375" y2="51.4625" layer="21"/>
 <rectangle x1="5.2125" y1="51.4375" x2="6.0625" y2="51.4625" layer="21"/>
 <rectangle x1="6.7375" y1="51.4375" x2="8.0875" y2="51.4625" layer="21"/>
@@ -9668,18 +9638,11 @@
 <rectangle x1="2.68" y1="17.72" x2="3.64" y2="17.8" layer="25"/>
 <rectangle x1="3.96" y1="17.72" x2="4.2" y2="17.8" layer="25"/>
 <rectangle x1="2.76" y1="17.8" x2="3.24" y2="17.88" layer="25"/>
-<polygon width="0.1524" layer="29">
-<vertex x="11.43" y="3.175"/>
-<vertex x="11.43" y="2.54"/>
-<vertex x="12.065" y="2.54"/>
-<vertex x="12.065" y="3.175"/>
-</polygon>
-<polygon width="0.1524" layer="31">
-<vertex x="11.43" y="3.175"/>
-<vertex x="11.43" y="2.54"/>
-<vertex x="12.065" y="2.54"/>
-<vertex x="12.065" y="3.175"/>
-</polygon>
+<text x="8" y="117" size="2.1844" layer="21">CLOCK IN</text>
+<text x="4" y="89" size="2.1844" layer="21">LENGTH(PULSE)</text>
+<text x="4" y="103" size="2.1844" layer="21">NUMBER(PULSE)</text>
+<text x="7" y="42" size="2.1844" layer="21">PULSE OUT</text>
+<text x="8" y="28" size="2.1844" layer="21">GATE OUT</text>
 </plain>
 <libraries>
 </libraries>
@@ -9877,14 +9840,6 @@ design rules under a new name.</description>
 <elements>
 </elements>
 <signals>
-<signal name="GND">
-<polygon width="0.1524" layer="1">
-<vertex x="11.43" y="3.175"/>
-<vertex x="11.43" y="2.54"/>
-<vertex x="12.065" y="2.54"/>
-<vertex x="12.065" y="3.175"/>
-</polygon>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
