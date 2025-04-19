@@ -13,6 +13,9 @@ I will add detailed part lists and assembly instructions if and when I make them
 	* Parts: thonk jacks, {5k, 150k} resistors, 3mm LEDs, 4030 IC, 4071 IC, 4081 IC, 16-pin power.
 	* Note: this is an imperfect module. It is missing an input comparator and an output buffer, and has untied pins on the unused logic gates.
 
+* hocketman (8hp): an Arduino Nano Every hocket device that routes input depending on the note played.
+	* Parts: thonk jacks, thonk 50k pots, thonk switches, {150k, 220k} resistors, mcp4822, 10-pin power.
+
 * quantiser (8hp): an Arduino Nano Every dual quantiser with scale controlled by switches.
 	* Parts: thonk jacks, thonk 50k pots, thonk switches, {150k, 220k} resistors, mcp4822, 10-pin power.
 
